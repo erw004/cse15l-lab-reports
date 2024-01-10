@@ -1,6 +1,6 @@
 ## **Lab Report 1**
 
-## `cd`:
+### `cd`:
 
 ![Image](Capture.PNG)
 ---
@@ -14,7 +14,7 @@ This is `cd` with a directory as an argument. Here, `cd` changes the working dir
 ---
 This is `cd` with a file as an argument. Since the argument is not a directory, the terminal prompts an error, saying that the argument is not a directory.
 
-## `ls`:
+### `ls`:
 
 ![Image](Capture3.PNG)
 ---
@@ -28,7 +28,7 @@ This is `ls` with a directory as an argument. The working directory is the `lect
 ---
 This is `ls` with a file as an argument. The argument is the `ar-iq.txt` file with the relative directory of `messages/ar-iq.txt`. As a result, that relative directory is listed out. This is not an error.
 
-## `cat`:
+### `cat`:
 
 ![Image](Capture6.PNG)
 ---
