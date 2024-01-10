@@ -3,7 +3,7 @@
 
 ![Image](Capture.PNG)
 ---
-This is cd by itself. It does not do anything because I am not prompting the terminal to go into a directory. This is not an error.
+This is `cd` by itself. It does not do anything because I am not prompting the terminal to go into a directory. This is not an error.
 
 ![Image](Capture1.PNG)
 ---
