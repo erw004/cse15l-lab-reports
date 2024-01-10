@@ -6,7 +6,7 @@ This is `cd` by itself. It does not do anything because I am not prompting the t
 
 ![Image](Capture1.PNG)
 ---
-This is `cd` with a directory as an argument. Here, `cd` changes the working directory to the argument, messages. This is not an error.
+This is `cd` with a directory as an argument. Here, `cd` changes the working directory to the argument, `messages`. This is not an error.
 
 ![Image](Capture2.PNG)
 ---
