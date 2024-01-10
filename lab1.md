@@ -1,13 +1,12 @@
 ## **Lab Report 1**
 
-This is `cd` by itself. It does not do anything because I am not prompting the terminal to go into a directory. This is not an error.
 ![Image](Capture.PNG)
 ---
+This is `cd` by itself. It does not do anything because I am not prompting the terminal to go into a directory. This is not an error.
 
-This is `cd` with a directory as an argument. Here, `cd` changes the working directory to the argument, messages. This is not an error.
 ![Image](Capture1.PNG)
 ---
-
+This is `cd` with a directory as an argument. Here, `cd` changes the working directory to the argument, messages. This is not an error.
 
 ![Image](Capture2.PNG)
 ---
