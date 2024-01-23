@@ -3,7 +3,7 @@
 ### `cd`:
 
 ![Image](Screenshot 2024-01-23 150601.png)
----
+
 Working Directory: `/home/lecture1/messages`
 
 This is `cd` by itself. It changes the working directory to /home. This is not an error.
