@@ -2,7 +2,7 @@
 
 ### `cd`:
 
-![Image](Screenshot 2024-01-23 150601.png)
+![Image](Capture.png)
 
 Working Directory: `/home/lecture1/messages`
 
