@@ -40,6 +40,7 @@ This is `ls` with a file as an argument. The argument is the `ar-iq.txt` file wi
 ---
 Working Directory: `/home/lecture1`
 This is `cat` by itself. Since `cat` expects a file as an argument, the terminal just goes to the next line and waits for an argument. This is not an error.
+If you enter `cat` again. `cat` is actually printed and the terminal goes to the next line and waits again.
 
 ![Image](Capture7.PNG)
 ---
