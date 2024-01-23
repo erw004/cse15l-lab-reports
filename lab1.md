@@ -6,7 +6,6 @@
 
 Working Directory: `/home/lecture1/messages`\
 This is `cd` by itself. It changes the working directory to /home. This is not an error.
-\newline
 
 ![Image](Capture1.PNG)
 ---
