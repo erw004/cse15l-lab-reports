@@ -14,13 +14,13 @@ Here, only `handleRequest()` is called since `main()` was already called to star
 
 
 ## Part 2:
-Absolute path to the private key for SSH key for logging into `ieng6`:
+Absolute path to the private key for SSH key for logging into `ieng6`:\
 ![Image](2a.png)
 
-Absolute path to the private key for SSH key for logging into `ieng6`:
+Absolute path to the private key for SSH key for logging into `ieng6`:\
 ![Image](2b.png)
 
-Logging into `ieng6` without password:
+Logging into `ieng6` without password:\
 ![Image](2c.png)
 
 
