@@ -1,8 +1,9 @@
 # **Lab Report 2**
 
-# Code:
+## Code:
 ![Image](ChatServer.png)
 
+## Two Screenshots:
 ![Image](first_ss.png)
 
 ![Image](second_ss.png)
