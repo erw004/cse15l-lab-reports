@@ -19,10 +19,10 @@ Absolute path to the private key for SSH key for logging into `ieng6`:\
 ![Image](2a.png)
 
 Absolute path to the public key for SSH key for logging into `ieng6`:\
-![Image](2b.png)
+![Image](2c.png)
 
 Logging into `ieng6` without password:\
-![Image](2c.png)
+![Image](2b.png)
 
 
 
