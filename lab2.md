@@ -5,6 +5,7 @@
 
 ## Two Screenshots:
 ![Image](first_ss.png)
+The methods `main()` and `handleRequest` are called. 
 
 ![Image](second_ss.png)
 
