@@ -13,7 +13,7 @@ class Handler implements URLHandler {
             if (url.getPath().contains("/add")) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s") && parameters[1].equals("user")) {
-                    return String.format("%s: %d", parameters[0], parameters[1]);
+                    return String.format("%s: %s", parameters[0], parameters[1]);
                 }
             }
             return "404 Not Found!";
