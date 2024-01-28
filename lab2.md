@@ -5,7 +5,7 @@
 
 ## Two Screenshots:
 ![Image](first_ss.png)
-The methods `main()` and `handleRequest()` are called. `main()` takes a `String` array `args` as an argument, which stores the port number. `handleRequest()` takes an argument `url`, which is the page's URL. The `Handler` class has the field variable `page`, which is a `String` that displays the messages on the page.
+The methods `main()` and `handleRequest()` are called. `main()` takes a `String` array `args` as an argument, which stores the port number. `handleRequest()` takes an argument `url`, which is the page's URL. The `Handler` class has the field variable `page`, which is a `String` stores the messages that will be displayed on the page.
 
 ![Image](second_ss.png)
 
