@@ -3,11 +3,12 @@
 ## Part 1:
 
 ### Code:
-`import java.io.IOException;`
-`import java.net.URI;`
 
-`class Handler implements URLHandler {`
-    `// The one bit of state on the server: a number that will be manipulated by`
+import java.io.IOException;
+import java.net.URI;
+
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
     // various requests.
     String page = "";
 
@@ -41,7 +42,7 @@ class ChatServer {
 
         Server.start(port, new Handler());
     }
-}`
+}
 
 ### Two Screenshots:
 ![Image](first_ss.png)
