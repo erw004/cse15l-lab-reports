@@ -3,7 +3,7 @@
 ## Part 1:
 
 ### Code:
-
+```
 import java.io.IOException;
 import java.net.URI;
 
@@ -43,7 +43,7 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
-
+```
 ### Two Screenshots:
 ![Image](first_ss.png)
 From `ChatServer.java`, the methods `main()` and `handleRequest()` are called. `main()` takes a `String` array `args` as an argument, which stores the port number. `handleRequest()` takes an argument `url`, which is the page's URL. The `Handler` class has the field variable `page`, which is a `String` that stores the messages that will be displayed on the page. 
