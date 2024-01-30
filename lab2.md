@@ -49,12 +49,12 @@ class ChatServer {
 
 ### Two Screenshots:
 ![Image](first_ss.png)
-`handleRequest()` is called. `handleRequest()` takes an argument `url`, which is the page's URL. The `Handler` class has the field variable `page`, which is a `String` that stores the messages that will be displayed on the page. There are also local variables `parameters`, `message`, and `user` in `handleRequest()`, which are all `String[]` that store different tokens from the query part of the URL. These are used to update `page` to store the actual page with the messages.
+`handleRequest()` is called. `handleRequest()` takes an argument `url`, which is the page's URL. The `Handler` class has the field variable `page`, which is a `String` that stores the messages that will be displayed on the page. There are also local variables `parameters`, `message`, and `user` in `handleRequest()`, which are all `String[]` that store different tokens from the query part of the URL.
 
 From this request, the value of `page` gets changed from `"No messages yet."` to an empty string `""` to `"Eric: hi\n"` since we added a new message `Eric: hi`.
 
 ![Image](second_ss.png)
-`handleRequest()` is called. `handleRequest()` takes an argument `url`, which is the page's URL. The `Handler` class has the field variable `page`, which is a `String` that stores the messages that will be displayed on the page. There are also local variables `parameters`, `message`, and `user` in `handleRequest()`, which are all `String[]` that store different tokens from the query part of the URL. These are used to update `page` to store the actual page with the messages.
+`handleRequest()` is called. `handleRequest()` takes an argument `url`, which is the page's URL. The `Handler` class has the field variable `page`, which is a `String` that stores the messages that will be displayed on the page. There are also local variables `parameters`, `message`, and `user` in `handleRequest()`, which are all `String[]` that store different tokens from the query part of the URL.
 
 From the last request, the value of  `page` is `"Eric: hi\n"` since that was our message. From this request, the value of `page` gets changed to `"Eric: hi\nEric Wang: Hello my friend!\n"` since we added a new message `Eric Wang: Hello my friend!`
 
