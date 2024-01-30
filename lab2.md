@@ -61,15 +61,13 @@ From the last request, the value of  `page` is `"Eric: hi\n"` since that was our
 
 
 ## Part 2:
-Absolute path to the private key for SSH key for logging into `ieng6`:\
 ![Image](2a.png)
+Absolute path to the private key for SSH key for logging into `ieng6`: `/Users/19252/.ssh/id_rsa`
 
-Absolute path to the public key for SSH key for logging into `ieng6`:\
-![Image](2c.png)
+Absolute path to the public key for SSH key for logging into `ieng6`:`/Users/19252/.ssh/id_rsa.pub`
 
-Logging into `ieng6` without password:\
 ![Image](2b.png)
-
+Logging into `ieng6` without password:
 
 
 ## Part 3:
