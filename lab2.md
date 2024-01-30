@@ -66,8 +66,9 @@ Absolute path to the private key: `/Users/19252/.ssh/id_rsa`
 
 Absolute path to the public key:`/Users/19252/.ssh/id_rsa.pub`
 
+---
 ![Image](2b.png)\
-Logging into `ieng6` without password:
+Logging into `ieng6` without password
 
 
 ## Part 3:
