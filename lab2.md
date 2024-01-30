@@ -51,7 +51,7 @@ class ChatServer {
 ![Image](first_ss.png)
 `handleRequest()` is called. `handleRequest()` takes an argument `url`, which is the page's URL. The `Handler` class has the field variable `page`, which is a `String` that stores the messages that will be displayed on the page. 
 
-From this request, the value of `page` gets changed from an empty string `""` to `"Eric: hi\n"` since we added a new message `Eric: hi` and `page` stores the messages.
+From this request, the value of `page` gets changed from `"No messages yet."` to an empty string `""` to `"Eric: hi\n"` since we added a new message `Eric: hi`.
 
 ![Image](second_ss.png)
 `handleRequest()` is called. `handleRequest()` takes an argument `url`, which is the page's URL. The `Handler` class has the field variable `page`, which is a `String` that stores the messages that will be displayed on the page. 
