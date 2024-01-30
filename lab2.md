@@ -10,7 +10,7 @@ import java.net.URI;
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
-    String page = "";
+    String page = "No messages yet.";
 
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
@@ -20,6 +20,8 @@ class Handler implements URLHandler {
                 String[] parameters = url.getQuery().replace("+", " ").split("&"); //would replace %20 with space, but shows as +
                 String[] message = parameters[0].split("=");
                 String[] user = parameters[1].split("=");
+
+                if (page.equals("No messages yet.")) page = "";
 
                 if (message[0].equals("s") && user[0].equals("user")) {
                     page += String.format("%s: %s", user[1], message[1]) + "\n";
