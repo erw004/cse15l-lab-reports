@@ -64,8 +64,12 @@ From the last request, the value of  `page` is `"Eric: hi\n"` since that was our
 ![Image](2a.png)\
 Absolute path to the private key: `/Users/19252/.ssh/id_rsa`
 
+---
+
 ![Image](ieng6.png)\
 Absolute path to the public key:`/home/linux/ieng6/oce/4m/erw004/.ssh`
+
+---
 
 ![Image](2b.png)\
 Logging into `ieng6` without password
