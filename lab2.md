@@ -67,7 +67,7 @@ Absolute path to the private key: `/Users/19252/.ssh/id_rsa`
 ---
 
 ![Image](ieng6.png)\
-Absolute path to the public key:`/home/linux/ieng6/oce/4m/erw004/.ssh`
+Absolute path to the public key:`/home/linux/ieng6/oce/4m/erw004/.ssh/authorized_keys`
 
 ---
 
