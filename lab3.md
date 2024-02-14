@@ -115,7 +115,7 @@ Here is another example of the same command, but instead we are using the comman
 
 This is useful to see all the files in a certain directory. We can also change the `-type` option from `f` to `d` to see all the directories within a certain directory.
 
-#### `find / "*.txt"`
+#### `find / -name "*.txt"`
 
 ```
 19252@wangomen MINGW64 ~/docsearch/technical (main)
@@ -157,7 +157,7 @@ $ find ./government/Post_Rate_Comm/ -name "*.txt"
 ```
 Here, we find and list all the files with a `.txt` extension in the directory `./government/Post_Rate_Comm/`.
 
-This is useful to find all the files in a certain directory with a certain filename extension. For example, we can find all the `.java` files or `.txt` files as seen in the above examples.
+This is useful to find all the files in a certain directory with a certain filename extension. For example, we can find all the `.java` files in a directory or `.txt` files as seen in the above examples.
 
 #### `find / -mtime -7`
 
@@ -180,7 +180,7 @@ $ find ./government/Post_Rate_Comm/ -mtime -7
 ./government/Post_Rate_Comm/ReportToCongress2002WEB.txt
 ./government/Post_Rate_Comm/WolakSpeech_usps.txt
 ```
-Here, we find all the files that were last modified within the last 7 days in the directory `./government/Post_Rate_Comm/`.
+Here, we find all the files that were last modified within the last week in the directory `./government/Post_Rate_Comm/`.
 
 ```
 19252@wangomen MINGW64 ~/docsearch/technical (main)
@@ -201,9 +201,9 @@ $ find ./government/Env_Prot_Agen/ -mtime -7
 ./government/Env_Prot_Agen/tech_adden.txt
 ./government/Env_Prot_Agen/tech_sectiong.txt
 ```
-Here, we find all the files that were last modified within the last 7 days in the directory `./government/Env_Prot_Agen/`.
+Here, we find all the files that were last modified within the last week in the directory `./government/Env_Prot_Agen/`.
 
-This is useful because we can find which files were updated within the last 7 days in a certain directory. We can also change the `-7` in the command to any other number of days or do `+7` to find files modified more than 7 days ago.
+This is useful because we can find which files were updated within the last X days in a certain directory. We can also change the `-7` to `+7` to find files modified more than a week ago.
 
 #### `find / -type f -empty`
 
