@@ -32,6 +32,7 @@ The symptom:
 ![Image](symptom.png)
 
 The bug:
+
 Before:
 ```
 static List<String> filter(List<String> list, StringChecker sc) {
