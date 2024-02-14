@@ -59,4 +59,4 @@ static List<String> filter(List<String> list, StringChecker sc) {
     return result;
 }
 ```
-The bug is fixed by changing `result.add(0, s);` to `result.add(s)` because instead of adding elements to the end of `result`, elements are added to the front, which means the elements are not in the correct order for `result`.
+The bug is fixed by changing `result.add(0, s);` to `result.add(s);`. In the bugged code, elements are added to the front of `result`, which makes the elements in `result` be in the wrong order if the size of `result` > 1. The fix makes it so elements are added to the back of `result`, which is the proper order.
