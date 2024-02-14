@@ -115,6 +115,8 @@ Here is another example of the same command, but instead we are using the comman
 
 This is useful to see all the files in a certain directory. We can also change the `-type` option from `f` to `d` to see all the directories within a certain directory.
 
+---
+
 #### `find / -name "*.txt"`
 
 ```
@@ -158,6 +160,8 @@ $ find ./government/Post_Rate_Comm/ -name "*.txt"
 Here, we find and list all the files with a `.txt` extension in the directory `./government/Post_Rate_Comm/`.
 
 This is useful to find all the files in a certain directory with a certain filename extension. For example, we can find all the `.java` files in a directory or `.txt` files as seen in the above examples.
+
+---
 
 #### `find / -mtime -7`
 
@@ -204,6 +208,8 @@ $ find ./government/Env_Prot_Agen/ -mtime -7
 Here, we find all the files that were last modified within the last week in the directory `./government/Env_Prot_Agen/`.
 
 This is useful because we can find which files were updated within the last X days in a certain directory. We can also change the `-7` to `+7` to find files modified more than a week ago.
+
+---
 
 #### `find / -type f -empty`
 
