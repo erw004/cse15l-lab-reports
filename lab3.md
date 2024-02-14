@@ -1,7 +1,8 @@
 ## Part 1 - Bugs
 
 ### ListExamples.java filter() bug
-Failure Inducing Input:
+
+### Failure Inducing Input:
 ```
 @Test 
 	public void testFilter() {
@@ -16,7 +17,7 @@ Failure Inducing Input:
 	}
 ```
 
-Input that does not induce failure:
+### Input that does not induce failure:
 ```
 @Test
     public void testFilter2() {
@@ -28,10 +29,10 @@ Input that does not induce failure:
     }
 ```
 
-The symptom:
+### The symptom:
 ![Image](symptom.png)
 
-The bug:
+### The bug:
 
 Before:
 ```
