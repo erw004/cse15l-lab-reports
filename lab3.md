@@ -71,7 +71,7 @@ The bug is fixed by changing `result.add(0, s);` to `result.add(s);`. In the bug
 
 For the following, I used this [resource](https://www.redhat.com/sysadmin/linux-find-command) to help guide me.
 
-#### `find /path/to/search -type f`
+#### `find / -type f`
 
 ```
 19252@wangomen MINGW64 ~/docsearch/technical (main)
@@ -115,7 +115,7 @@ Here is another example of the same command, but instead we are using the comman
 
 This is useful to see all the files in a certain directory. We can also change the `-type` option from `f` to `d` to see all the directories within a certain directory.
 
-#### `find /path/to/search -name "*.txt"`
+#### `find / "*.txt"`
 
 ```
 19252@wangomen MINGW64 ~/docsearch/technical (main)
@@ -159,7 +159,7 @@ Here, we find and list all the files with a `.txt` extension in the directory `.
 
 This is useful to find all the files in a certain directory with a certain filename extension. For example, we can find all the `.java` files or `.txt` files as seen in the above examples.
 
-#### `find /path/to/search -mtime -7`
+#### `find / -mtime -7`
 
 ```
 19252@wangomen MINGW64 ~/docsearch/technical (main)
@@ -205,7 +205,7 @@ Here, we find all the files that were last modified within the last 7 days in th
 
 This is useful because we can find which files were updated within the last 7 days in a certain directory. We can also change the `-7` in the command to any other number of days or do `+7` to find files modified more than 7 days ago.
 
-#### `find /path/to/search -type f -empty`
+#### `find / -type f -empty`
 
 ```
 19252@wangomen MINGW64 ~/docsearch/technical (main)
