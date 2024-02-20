@@ -71,7 +71,7 @@ The bug is fixed by changing `result.add(0, s);` to `result.add(s);`. In the bug
 
 ### `find`
 
-For the following, I used this [resource](https://www.redhat.com/sysadmin/linux-find-command) to help guide me.
+For the following, I used this [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command) to help guide me.
 
 ---
 
