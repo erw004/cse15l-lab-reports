@@ -30,7 +30,7 @@ Keys Pressed: `<up><up><up><up><enter><r><2><esc><:><w><q><enter>` The `vim List
 ![Image](7db.png)
 
 ## Step 8:
-Keys Pressed: `<b><a><s><h><space><t><e><s><t><.><s><h><enter>` I simply typed the command `bash test.sh` and pressed the enter key to run the tests, which passed this time.
+Keys Pressed: `<up><up><enter>` I accessed the command `bash test.sh` since it was 2nd on the search history and pressed the enter key to run the tests, which passed this time.
 
 ![Image](7e.png)
 
