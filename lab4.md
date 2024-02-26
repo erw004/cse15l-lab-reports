@@ -7,7 +7,7 @@ Keys Pressed: `<up><enter>` The `ssh erw004@ieng6.ucsd.edu` command, which lets 
 ![Image](7a.png)
 
 ## Step 5:
-Keys Pressed: `<ctrl><r><g><enter>` I used `<ctrl><r><g>` to access the command `git clone git@github.com:erw004/lab7.git`, which clones my fork of the repo from my GitHub account using the `SSH` URL, since it includes the letter g. Then, I ran the command by pressing the enter key.
+Keys Pressed: `<ctrl><r><g><enter>` I used `<ctrl><r><g>` to access the command `git clone git@github.com:erw004/lab7.git`, which clones my fork using the `SSH` URL, since it includes the letter g. Then, I ran the command by pressing the enter key.
 
 ![Image](7ba.png)
 
