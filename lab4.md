@@ -14,7 +14,7 @@ Keys Pressed: `<ctrl><r><g><enter>` I used `<ctrl><r><g>` to access the command 
 ![Image](7b.png)
 
 ## Step 6:
-Keys Pressed: `<c><d><space><l><tab><enter>` The `cd lab7/` command let me enter the `lab7` directory, where I can run the tests.
+Keys Pressed: `<c><d><space><l><tab><enter>` The `cd lab7` command lets me enter the `lab7` directory, where I can run the tests.
 
 ![Image](7ca.png)
 
