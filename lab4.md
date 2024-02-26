@@ -35,7 +35,7 @@ Keys Pressed: `<up><up><enter>` I accessed the command `bash test.sh` since it w
 ![Image](7e.png)
 
 ## Step 9:
-Keys Pressed: `<g><i><t><space><a><d><d><space><L><tab><.><j><a><v><a><enter>` I typed out the command `git add ListExamples.java` and pressed enter so that I can add the changes I did in `vim`.
+Keys Pressed: `<g><i><t><space><a><d><d><space><L><tab><.><j><a><v><a><enter>` I typed out the command `git add ListExamples.java` and pressed enter so that I can add the changes I did in `vim`. I needed to add the `.java` extension because pressing tab did not provide me the extension.
 
 ---
 Keys Pressed: `<g><i><t><space><c><o><m><m><i><t><space><-><m><"><d><o><n><e><"><enter>` I typed out the command `git commit -m "done"` and pressed the enter key so that I can commit and save the changes locally with a commit message of `done`.
