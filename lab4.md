@@ -23,7 +23,7 @@ Keys Pressed: `<b><a><s><h><space><t><e><s><t><.><s><h><enter>` I simply typed t
 ![Image](7c.png)
 
 ## Step 7:
-Keys Pressed: `<up><up><up><up><enter><r><2><esc><:><w><q><enter>` The `vim ListExamples.java` command was 4th in the search history, so I pressed the up arrow 4 times to access it and pressed the enter key to run it. Now, I can edit `ListExamples.java`. Since I was already at the right spot to edit the bug, I pressed the r key to replace the 1 of `index1` with 2 to change `index1` into `index2`, fixing the bug.
+Keys Pressed: `<up><up><up><up><enter><r><2><esc><:><w><q><enter>` The `vim ListExamples.java` command was 4th in the search history, so I pressed the up arrow 4 times to access it and pressed the enter key to run it. Now, I can edit `ListExamples.java`. Since I was already at the right spot to edit the bug, I pressed the r key and the 2 key to change the 1 of `index1` into a 2 to become `index2`, fixing the bug.
 
 ![Image](7d.png)
 
