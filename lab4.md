@@ -23,6 +23,10 @@ Keys Pressed: `<b><a><s><h><space><t><e><s><t><.><s><h><enter>` I simply typed t
 
 ### Step 9:
 Keys Pressed: `<g><i><t><space><a><d><d><space><L><tab><.><j><a><v><a><enter>` I typed out the command `git add ListExamples.java` and pressed enter so that I can add the changes I did in `vim`.
+
+---
 Keys Pressed: `<g><i><t><space><c><o><m><m><i><t><space><-><m><"><d><o><n><e><"><enter>` I typed out the command `git commit -m "done"` and pressed the enter key so that I can commit and save the changes locally with a commit message of `done`.
+
+---
 Keys Pressed: `<g><i><t><space><p><u><s><h><enter>` I typed out the command `git push` and pressed the enter key so I can push these changes to GitHub.
 ![Image]()
