@@ -5,7 +5,7 @@
 
 ![Image](lab5_symptom.png)
 
-**TA:** Hey, according to your screenshot, the expected output should be `[moon, MoOn]` and the actual output was `[MoOn, moon]`. So, can you describe to me why the expected output is the way it is?
+**TA:** Hey, according to your screenshot, the expected output should be `[moon, MoOn]` but the actual output was `[MoOn, moon]`. Can you describe to me why you think the expected output is the way it is?
 
 **Student:** Well, the algorithm is supposed to return a list that only has elements which return true for `StringChecker`. In my case, for `StringChecker`, I'm checking whether the string is the word moon. But why is my output wrong if all the elements in the list are moon.
 
